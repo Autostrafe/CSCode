@@ -21,7 +21,6 @@ function setup() {
 function draw() {
   createCanvas(windowWidth, windowHeight,WEBGL);
   background(0);
-
   fill(240, 150, 150);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
@@ -32,5 +31,4 @@ function draw() {
   cone(10,50,1)
   translate(0,-210)
   cylinder(5,50,8);
-
 }
